@@ -139,7 +139,7 @@ class AttentionBlock(nn.Module):
 
 
 class ResidualBlock(nn.Module):
-    __doc__ = r"""Applies two conv blocks with resudual connection. Adds time and class conditioning by adding bias after first convolution.
+    __doc__ = r"""Applies two conv blocks with residual connection. Adds time and class conditioning by adding bias after first convolution.
 
     Input:
         x: tensor of shape (N, in_channels, H, W)

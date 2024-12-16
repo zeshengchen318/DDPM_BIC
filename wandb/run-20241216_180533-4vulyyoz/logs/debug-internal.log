@@ -1,0 +1,18 @@
+{"time":"2024-12-16T18:05:33.966189228Z","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-16T18:05:33.966197478Z","level":"INFO","msg":"created symlink","path":"/home/zc355/Desktop/DL/DDPM/wandb/run-20241216_180533-4vulyyoz/logs/debug-core.log"}
+{"time":"2024-12-16T18:05:34.06874815Z","level":"INFO","msg":"created new stream","id":"4vulyyoz"}
+{"time":"2024-12-16T18:05:34.06877195Z","level":"INFO","msg":"stream: started","id":"4vulyyoz"}
+{"time":"2024-12-16T18:05:34.06882666Z","level":"INFO","msg":"writer: Do: started","stream_id":"4vulyyoz"}
+{"time":"2024-12-16T18:05:34.06883544Z","level":"INFO","msg":"sender: started","stream_id":"4vulyyoz"}
+{"time":"2024-12-16T18:05:34.068882721Z","level":"INFO","msg":"handler: started","stream_id":"4vulyyoz"}
+{"time":"2024-12-16T18:05:34.208139747Z","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-12-16T18:05:34.208225267Z","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403 Forbidden: {\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2024-12-16T18:05:34.211986128Z","level":"INFO","msg":"stream: closing","id":"4vulyyoz"}
+{"time":"2024-12-16T18:05:34.212176579Z","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2024-12-16T18:05:34.377975273Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-12-16T18:05:34.378031894Z","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project zeshengchen318/DDPM_BIC not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2024-12-16T18:05:34.378408256Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-16T18:05:34.378462596Z","level":"INFO","msg":"handler: closed","stream_id":"4vulyyoz"}
+{"time":"2024-12-16T18:05:34.378468176Z","level":"INFO","msg":"writer: Close: closed","stream_id":"4vulyyoz"}
+{"time":"2024-12-16T18:05:34.378501706Z","level":"INFO","msg":"sender: closed","stream_id":"4vulyyoz"}
+{"time":"2024-12-16T18:05:34.378519476Z","level":"INFO","msg":"stream: closed","id":"4vulyyoz"}

@@ -1,5 +1,6 @@
 from setuptools import setup
 
+
 setup(
     name="ddpm",
     py_modules=["ddpm"],
