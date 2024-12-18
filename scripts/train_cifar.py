@@ -133,13 +133,13 @@ def create_argparser():
     run_name = datetime.datetime.now().strftime("ddpm-%Y-%m-%d-%H-%M")
     defaults = dict(
         learning_rate=2e-4,
-        batch_size=128,
+        batch_size=64,
         iterations=800000,
 
         log_to_wandb=True,
         log_rate=1000,
         checkpoint_rate=1000,
-        log_dir="~/ddpm_logs",
+        log_dir="outputs",
         project_name=None,
         run_name=run_name,
 

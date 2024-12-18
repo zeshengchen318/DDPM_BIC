@@ -60,10 +60,12 @@ def diffusion_defaults():
     defaults = dict(
         num_timesteps=1000,
         schedule="linear",
+        schedule_low=1e-4,
+        schedule_high=0.02,
         loss_type="l2",
         use_labels=False,
 
-        base_channels=128,
+        base_channels=64,
         channel_mults=(1, 2, 2, 2),
         num_res_blocks=2,
         time_emb_dim=128 * 4,
