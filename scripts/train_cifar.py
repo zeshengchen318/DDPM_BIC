@@ -137,8 +137,8 @@ def create_argparser():
         iterations=800000,
 
         log_to_wandb=True,
-        log_rate=1000,
-        checkpoint_rate=1000,
+        log_rate=500,
+        checkpoint_rate=5000,
         log_dir="outputs",
         project_name=None,
         run_name=run_name,
